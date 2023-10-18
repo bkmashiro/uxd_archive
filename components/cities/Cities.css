@@ -1,0 +1,30 @@
+/*
+CSS for project #4
+
+Since CSS uses a global name space for classes we should use names starting with
+cities- here.
+*/
+
+.cities-container {
+    font-family: monospace;
+}
+
+#cities-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+#cities-filterInput {
+    height: 40px;
+    width: 50%;
+    font-size: 20pt;
+}
+
+#city-container {
+    max-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

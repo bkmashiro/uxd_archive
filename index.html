@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Project 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="modelData/cities.js"></script>
+  </head>
+  <body>
+      <div id="reactapp">
+        <script src="compiled/p4.bundle.js"></script>
+      </div>
+      <script type="text/javascript">
+        //<![CDATA[
+        // JavaScript frameworks have problems using the file protocol.
+        // Since the project's files are accessible using either the file or
+        // http protocols we warn the user if they are not using http.
+        if(window.location.protocol !== 'http:') {
+            var msg = "Project #4 files must be accessed with the http protocol (not from local files)."  +
+                            "\nUse the URL http://localhost:3000";
+            console.error(msg);
+            alert(msg);
+        }
+        //]]>
+    </script>
+  </body>
+</html>
